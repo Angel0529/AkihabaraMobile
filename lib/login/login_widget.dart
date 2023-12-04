@@ -335,8 +335,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                                     context.pushNamed('SignUP');
                                   },
                                   child: RichText(
-                                    textScaleFactor:
-                                        MediaQuery.of(context).textScaleFactor,
                                     text: TextSpan(
                                       children: [
                                         const TextSpan(
@@ -358,7 +356,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                       ],
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium,
-                                    ),
+                                    ), textScaler: TextScaler.linear(MediaQuery.of(context).textScaleFactor),
                                   ),
                                 ),
                               ),
