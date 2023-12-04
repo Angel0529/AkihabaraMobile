@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">106288481801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCtTsLTZ7RK0MR3q0EQayvWmg23VBj31h8</string>
+    <string name="google_app_id" translatable="false">1:106288481801:android:72c8f99357b35b28105ad8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCtTsLTZ7RK0MR3q0EQayvWmg23VBj31h8</string>
+    <string name="google_storage_bucket" translatable="false">akihabaradb.appspot.com</string>
+    <string name="project_id" translatable="false">akihabaradb</string>
+</resources>
